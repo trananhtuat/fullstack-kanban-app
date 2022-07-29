@@ -71,7 +71,6 @@ const Login = () => {
           disabled={loading}
           error={usernameErrText !== ''}
           helperText={usernameErrText}
-          autoComplete={false}
         />
         <TextField
           margin='normal'
@@ -84,7 +83,6 @@ const Login = () => {
           disabled={loading}
           error={passwordErrText !== ''}
           helperText={passwordErrText}
-          autoComplete={false}
         />
         <LoadingButton
           sx={{ mt: 3, mb: 2 }}
