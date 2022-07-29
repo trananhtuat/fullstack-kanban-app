@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "app.js",
+      "src": "bin/www.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.js"
+      "dest": "bin/www.js"
     }
   ]
 }
